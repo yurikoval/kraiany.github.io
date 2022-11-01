@@ -6,9 +6,9 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: Directory
-  create: all
-  match: "**/*"
+  label: Japanese News
+  create: documents
+  match: source/news/*-ja-*
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
