@@ -19,3 +19,5 @@ fields:
     required: false
   label: Title
   description: Title for the article
+pages:
+- source/news/some-article-in-japanese.md
