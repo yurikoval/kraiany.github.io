@@ -10,10 +10,10 @@ sections:
   create: documents
   match: "*-uk-*"
 - type: directory
-  path: ''
+  path: source/news
   label: Japanese News
   create: documents
-  match: source/news/*-ja-*
+  match: "*-ja-*"
 upload_dir: source/assets/uploads
 public_path: "/assets/uploads"
 front_matter_path: ''
